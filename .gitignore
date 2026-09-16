@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+.pytest_cache/
+
+# Generated processed data
+data/processed/*.csv
+
+# Trained models
+models/*.pkl
+
+# Large datasets
+data/raw/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,25 @@
+FRAUD DATA QUALITY REPORT
+=========================
+- Original rows: 101000
+- Original columns: 31
+- Missing values before cleaning: 11111
+- Duplicate rows before cleaning: 0
+- Duplicate rows removed: 0
+- Remaining missing values: 0
+
+- Final rows: 101000
+- Final columns: 14
+
+TARGET DISTRIBUTION
+-------------------
+is_fraud
+1    50506
+0    50494
+Name: count, dtype: int64
+
+TARGET PERCENTAGE
+-----------------
+is_fraud
+1    50.005941
+0    49.994059
+Name: proportion, dtype: float64
